@@ -3,3 +3,96 @@
 Following my lectures at DSA hub on Microsoft Excel, SQL and Powerbi, this project has given me the priviledge to exhibit what ia have learnt over 2 months and my appreciation goes to RCCG for this great opportunty.
 
 ### Project details
+
+To provide answers to the questions and insight to this scenario, i will go ahead thsu..
+
+Q1	What is the average discount percentage by product category? 
+
+This looks at the average discount obatainable for each product category and the summary to look at here is AVERAGE. 
+The minimum discount is 50% while the maximum is 94% which signifies that the discount policy of Amazon is quite liberal and this applies a different categories of thier Products.
+
+
+Q2 How many products are listed under each category?
+We are looking at the number of products per each category and Amazon has a wide range of Products which falls under 7 Categories. Further analysis is shown on the dashboard though a count of the product name is used showing Numbers.
+
+Q3 Total number of reviews per category
+
+This looks at customers review and comments on a product and this muct have been after a purchase is done. They will be able to rate the product under the category. The rating count for AmazonBasics Flexible Premium HDMI Cable is 426,973 which is the highest. 
+Worthy of note is the comment on the product "It's quite good and value for money,Works well,Hdmi cable,Value for money,All good,Gets the job done,Delivery was good,This one was my need to purchase"
+
+Q4 Which products have the highest average ratings?
+
+Here, we look at the count of product having the highest average rating which is;
+Syncwire LTG to USB Cable
+Amazon Basics Wireless Mouse
+We achieved this by sorting out the data set to figure out the product with highest in terms of average 
+
+Q5  Average actual price vs discounted price by category
+3 parameters were considered here which are actual price, discount price and category. We considered the average actual price on each category an the discount price.
+Car & Motorbike had the highest average actual price of 4,000 with a discount price of 2,339 while Toys & Games had the lowest average actual pice and discount price of 150.
+
+Q6 Which products have the highest number of reviews?
+The produt showing the highest number of reviews is ;
+AmazonBasics Flexible Premium HDMI Cable (Black, 4K@60Hz, 18Gbps), 3-Foot- 426,973 reviews
+Amazon Basics High-Speed HDMI Cable, 6 Feet - Supports Ethernet, 3D, 4K video,Black- 426,973 reviews
+Amazon Basics High-Speed HDMI Cable, 6 Feet (2-Pack),Black- 363,713 reviews.
+
+ The Top 3 was selected here though we can see a tie from the first 2.
+
+Q7. How many products have a discount of 50% or more
+To arraive at this answer, i had to create a column showing the products and classifying them into those that qualify for 50% or more using "Yes or No" as a basis.
+A Count of 660 products was identified using COUNTIF function.
+
+Q8 Distribution of product ratings
+This views how products are rated by customers and this usually takes the form of a count and it spreads across different levels. 
+It provides a more detailed view of customer sentiment than just an average rating, revealing whether most customers had a positive, negative, or mixed experience.  The spread we have for Amazon is between 2.3 - 5 using rating.
+
+Q9. Total potential revenue by category
+Here, Turnover on each category is analysed using actual price and rating count as basis.
+The highest turnover is  ₹ 1,324,736,000.00 which is from SanDisk 1TB Extreme Portable SSD 1050MB/s R, 1000MB/s W
+
+Q10 Number of unique products per price range bucket
+Amazon has some unique products which a price  range bucket was created for as a separate column.
+
+Discount price was used here and i was able to sort between "₹200–₹500" as the price range bucket.
+Products whose price was  ₹200-₹500 were 341, products whose price was <₹200 was 158 and products >₹500 were 849.
+
+Q 11 How does the rating relate to the level of discount?
+To bring out the relationship between rating and discount, i had to group discount into band i.e  0-10%, 11-20%.., and upon completion, a comparison was done based on average rating per discount band.
+Those that fell in the discount band of <50% had average rating of 4.127034884 while those that were 50% or More had average rating of 4.055454545
+
+Q12 How many products have fewer than 1,000 reviews
+
+192 Amazon products were identified having < 1000 reviews and this was accomplished using the COUNT function
+
+Q13.Which categories have products with the highest discounts
+
+I had earlier created a discount% column and this column will be used to determine the Amazon product with highest discount 
+rts [2 Pack] Mini USB C Type C Adapter Plug, Type C Female to USB A Male Charger Charging Cable Adapter Converter compatible for iPhone. This product was identified with 94% discount.
+Potential revenue on this product is  ₹ 22,125,574.00 an it is possible this is a fast moving product.
+
+Q14 Top 5 products by rating + number of reviews combined
+
+Another column was created and the scope here is to identify top  5 product by rating vis a vis rating count and a scaling factor of 1000.
+ The top 5 are;
+AmazonBasics Flexible Premium HDMI Cable (Black, 4K@60Hz, 18Gbps), 3-Foot -431 reviews
+Amazon Basics High-Speed HDMI Cable, 6 Feet (2-Pack),Black- 431 reviews
+boAt Bassheads 100 in Ear Wired Earphones with Mic(Taffy Pink)- 368 reviews
+boAt Bassheads 100 in Ear Wired Earphones with Mic(Furious Red)- 368 reviews
+boAt BassHeads 100 in-Ear Wired Headphones with Mic (Black)- 368 reviews
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
